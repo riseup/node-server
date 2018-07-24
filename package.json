@@ -1,0 +1,23 @@
+{
+  "name": "webapi-server",
+  "version": "1.0.0",
+  "description": "express api",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Sebastián Barroso",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.4",
+    "nodemon": "^1.18.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
